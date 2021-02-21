@@ -11,7 +11,7 @@ Currently under construction
     - [x] Footer
 - [ ] Code the homepage
 - [ ] Code other pages
-    - [ ] About
+    - [x] About
     - [ ] My stuff
 - [ ] Final stuff
 - [ ] Deploy to [Vercel](vercel.com) at [shehabtweel.ly](shehabtweel.ly)
