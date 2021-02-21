@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 
 const data = {
@@ -19,6 +20,9 @@ const data = {
 export default function About() {
     return (
         <>
+            <Head>
+                <title>About me</title>
+            </Head>
             <h1>About me</h1>
             My name is Shehab Tweel,
             I'm a programmer for mostly TypeScript and React stuff. (Including NextJS)

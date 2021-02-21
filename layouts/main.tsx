@@ -10,6 +10,7 @@ export default function MainLayout({ children }) {
             <Container>
                 {children}
             </Container>
+            <br/>
             <Footer />
         </>
     )

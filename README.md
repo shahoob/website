@@ -10,9 +10,9 @@ Currently under construction
     - [x] Header (navbar)
     - [x] Footer
 - [ ] Code the homepage
-- [ ] Code other pages
+- [x] Code other pages
     - [x] About
-    - [ ] My stuff
+    - [x] My stuff
 - [ ] Final stuff
 - [ ] Deploy to [Vercel](vercel.com) at [shehabtweel.ly](shehabtweel.ly)
 
