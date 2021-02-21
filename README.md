@@ -6,7 +6,7 @@ Currently under construction
 ### Phase 1
 
 - [x] Choose a style (bootstrap)
-- [ ] Code the most common component in every site **ever**
+- [ ] Code the most common components in every site **ever**
     - [ ] Header (navbar)
     - [ ] Footer
 - [ ] Code the homepage
