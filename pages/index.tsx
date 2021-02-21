@@ -11,14 +11,11 @@ export default function Home() {
       </Head>
       <Jumbotron>
         <h1>Shehab Tweel</h1>
-        An 12 year old programmer, born from Libya.
+        A 12 year old programmer, born from Libya.
         <br/>
         <Link href="/about">
           <Button>Learn more about me</Button>
         </Link>
-      </Jumbotron>
-      <Jumbotron>
-        <h2>My stuff</h2>
       </Jumbotron>
     </>
   )

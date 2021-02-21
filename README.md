@@ -9,7 +9,7 @@ Currently under construction
 - [x] Code the most common components in every site **ever**
     - [x] Header (navbar)
     - [x] Footer
-- [ ] Code the homepage
+- [x] Code the homepage
 - [x] Code other pages
     - [x] About
     - [x] My stuff
