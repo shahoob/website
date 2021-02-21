@@ -5,7 +5,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 export default function Header() {
     return (
         <Navbar bg="light" variant="light">
-            <Navbar.Brand>
+            <Navbar.Brand href="/">
                 <img
                     src="https://www.gravatar.com/avatar/2be5fbb81f646401a29e4579547d1223"
                     width="30"
@@ -15,10 +15,10 @@ export default function Header() {
                 <Navbar.Collapse id="header-nav">
                     <Nav className="mr-auto">
                         <Link href="/about">
-                            <Nav.Link>About</Nav.Link>
+                            <Nav.Link as="a" href="/about">About</Nav.Link>
                         </Link>
                         <Link href="/stuff">
-                            <Nav.Link>My stuff</Nav.Link>
+                            <Nav.Link as="a" href="/stuff">My stuff</Nav.Link>
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
