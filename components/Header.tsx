@@ -1,5 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
-import { Navbar } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 
 export default function Header() {
     return (
@@ -11,6 +12,16 @@ export default function Header() {
                     height="30"
                 />{' '}
                 Shehab Tweel</Navbar.Brand>
+                <Navbar.Collapse id="header-nav">
+                    <Nav className="mr-auto">
+                        <Link href="/about">
+                            <Nav.Link>About</Nav.Link>
+                        </Link>
+                        <Link href="/stuff">
+                            <Nav.Link>My stuff</Nav.Link>
+                        </Link>
+                    </Nav>
+                </Navbar.Collapse>
         </Navbar>
     )
 }

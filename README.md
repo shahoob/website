@@ -7,7 +7,7 @@ Currently under construction
 
 - [x] Choose a style (bootstrap)
 - [ ] Code the most common components in every site **ever**
-    - [ ] Header (navbar)
+    - [x] Header (navbar)
     - [ ] Footer
 - [ ] Code the homepage
 - [ ] Code other pages
