@@ -4,7 +4,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 export default function Header() {
     return (
-        <Navbar bg="light" variant="light">
+        <Navbar bg="light" variant="light" sticky="top">
             <Navbar.Brand href="/">
                 <img
                     src="https://www.gravatar.com/avatar/2be5fbb81f646401a29e4579547d1223"
