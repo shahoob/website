@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import React from 'react'
-import { Nav, Navbar } from 'react-bootstrap'
+import Link from 'next/link';
+import React from 'react';
+import { Nav, Navbar } from 'react-bootstrap';
 
 export default function Header() {
     return (
