@@ -1,4 +1,4 @@
-// import Head from 'next/head';
+import Head from 'next/head';
 import Link from 'next/link';
 
 import { Button, Jumbotron } from 'react-bootstrap';
@@ -6,6 +6,9 @@ import { Button, Jumbotron } from 'react-bootstrap';
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Shehab Tweel</title>
+      </Head>
       <Jumbotron>
         <h1>Shehab Tweel</h1>
         An 11 year old programmer, born from Libya.
@@ -13,6 +16,9 @@ export default function Home() {
         <Link href="/about">
           <Button>Learn more about me</Button>
         </Link>
+      </Jumbotron>
+      <Jumbotron>
+        <h2>My stuff</h2>
       </Jumbotron>
     </>
   )
