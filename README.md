@@ -13,7 +13,7 @@ Currently under construction
 - [x] Code other pages
     - [x] About
     - [x] My stuff
-- [ ] Final stuff
+- [x] Final stuff
 - [ ] Deploy to [Vercel](vercel.com) at [shehabtweel.ly](shehabtweel.ly)
 
 ### Phase 2

@@ -3,12 +3,14 @@ import Link from 'next/link';
 
 import { Button, Jumbotron } from 'react-bootstrap';
 
+
 export default function Home() {
   return (
     <>
       <Head>
         <title>Shehab Tweel</title>
       </Head>
+      <div className="center">
       <Jumbotron>
         <h1>Shehab Tweel</h1>
         A 12 year old programmer, born from Libya.
@@ -17,6 +19,7 @@ export default function Home() {
           <Button>Learn more about me</Button>
         </Link>
       </Jumbotron>
+      </div>
     </>
   )
 }
