@@ -14,6 +14,8 @@ Currently under construction
     - [x] About
     - [x] My stuff
 - [x] Final stuff
+- [ ] Make pages *static*
+    - [ ] My stuff
 - [ ] Deploy to [Vercel](vercel.com) at [shehabtweel.ly](shehabtweel.ly)
 
 ### Phase 2
