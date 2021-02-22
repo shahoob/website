@@ -16,7 +16,7 @@ export interface IRepoNode {
     isArchived: boolean;
 }
 
-interface IRepos {
+export interface IRepos {
     user: {
         repositories: {
             nodes: IRepoNode[];
@@ -43,13 +43,7 @@ query Repos($first: Int!) {
 }
 `
 
-export default function RepoList({ length }: { length: number }) {
-    const { loading, error, data } = useQuery<IRepos>(REPOS, {
-        variables: { first: length }
-    });
-
-    if (loading) return <Spinner animation="border" />
-    if (error) return <Alert variant="danger">{error.message}</Alert>
+export default function RepoList({ data }: { data: IRepos }) {
 
     return (
         <CardColumns>
