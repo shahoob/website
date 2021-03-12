@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         uri: 'https://api.github.com/graphql',
         cache: new InMemoryCache(),
         headers: {
-            Authorization: 'bearer c6acc874b908118417cae56d5bc2b7416fd42456'
+            Authorization: `bearer ${process.env.GITHUB_TOKEN}`
         }
     });
 
