@@ -47,7 +47,7 @@ export default function RepoList({ data }: { data: IRepos }) {
 
     return (
         <CardColumns>
-            {data.user.repositories.nodes.map(n => <RepoCard node={n} />)}
+            {data.user.repositories.nodes.map((n, i) => <RepoCard key={i} node={n} />)}
         </CardColumns>
     )
 }
