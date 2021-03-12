@@ -22,6 +22,9 @@ export default function Header() {
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
+                <div className="ml-auto">
+                <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/shahoob/website?label=%20&style=flat-square" />
+                </div>
         </Navbar>
     )
 }
