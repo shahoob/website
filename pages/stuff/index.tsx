@@ -23,14 +23,12 @@ query Repos($first: Int!) {
 }
 `
 
-const github_token = 'd56034cadb5b23ffc7f1fa7e89c93ed8bffe7e1d'
-
 export const getStaticProps: GetStaticProps = async (context) => {
     const client = new ApolloClient({
         uri: 'https://api.github.com/graphql',
         cache: new InMemoryCache(),
         headers: {
-            Authorization: `bearer d56034cadb5b23ffc7f1fa7e89c93ed8bffe7e1d`
+            Authorization: `bearer ${process.env.GITHUB_TOKEN}`
         }
     });
 
