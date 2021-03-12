@@ -1,7 +1,8 @@
 > This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Currently under construction
-
+![GitHub package.json version](https://img.shields.io/github/package-json/v/shahoob/website?style=flat-square)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/shahoob/website/main?label=deployment&logo=vercel&style=flat-square)
 ## Progress
 ### Phase 1
 
