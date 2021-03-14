@@ -1,3 +1,5 @@
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Head from 'next/head'
 import React from 'react'
 
@@ -6,7 +8,7 @@ const data = {
         languages: [
             'Python',
             'JavaScript',
-            'TypeScript (most common)',
+            'TypeScript (most preferred)',
             'CoffeeScript',
             'The Arduino Language'
         ],
@@ -27,7 +29,7 @@ export default function About() {
             My name is Shehab Tweel,
             I'm a programmer for mostly TypeScript and React stuff. (Including NextJS)
             <br />
-            I was born in Libya, and I'm 12 years old.
+            I was born in Libya, and I'm 12 years old. (currently {new Date().getFullYear() - 2009} years old)
             <br />
             I currently know:
             <ul>
@@ -42,9 +44,9 @@ export default function About() {
                 ))}
             </ul>
             And I always, I mean <b>always</b> open-source my code
-            on my <a href="http://github.com/shahoob">GitHub</a>.
+            on my <a href="https://github.com/shahoob"><FontAwesomeIcon icon={faGithub} /> GitHub</a>.
             <br/>
-            Even this new website I made is also open-soruce!
+            Even this new website I made is also open-source!
         </>
     )
 }
