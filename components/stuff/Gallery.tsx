@@ -18,8 +18,8 @@ export interface GalleryProps {
 export default function Gallery({ images }: GalleryProps) {
     return (
         <>
-            {images.map(image => (
-                <Figure>
+            {images.map((image, i) => (
+                <Figure key={i}>
                     <Figure.Image
                         src={image.url}
                         width={image.size.width}
