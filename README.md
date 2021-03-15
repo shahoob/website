@@ -23,5 +23,5 @@ Currently under construction
 
 ### Phase 2
 
-- [ ] Improve SEO and link previews
 - [ ] Implement a blog
+- [ ] Improve SEO and link previews
