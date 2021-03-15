@@ -9,12 +9,16 @@ const data = {
             'Python',
             'JavaScript',
             'TypeScript (most preferred)',
-            'CoffeeScript',
             'The Arduino Language'
         ],
         runtimes: [
             'Node.js',
             'Browser'
+        ],
+        frameworks: [
+            'React',
+            'Vue.js',
+            'Angular'
         ]
     }
 }
@@ -37,9 +41,15 @@ export default function About() {
                     <li>{l}</li>
                 ))}
             </ul>
-            And I currently know how to write code for these things (Runtimes):
+            I currently know how to write code for these things (Runtimes):
             <ul>
                 {data.programming.runtimes.map(l => (
+                    <li>{l}</li>
+                ))}
+            </ul>
+            And I know these frameworks:
+            <ul>
+                {data.programming.frameworks.map(l => (
                     <li>{l}</li>
                 ))}
             </ul>
