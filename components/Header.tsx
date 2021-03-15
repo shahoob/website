@@ -7,7 +7,7 @@ export default function Header() {
         <Navbar bg="light" variant="light">
             <Navbar.Brand href="/">
                 <img
-                    src="https://www.gravatar.com/avatar/2be5fbb81f646401a29e4579547d1223"
+                    src={`https://www.gravatar.com/avatar/${process.env.GRAVATAR_HASH}`}
                     width="30"
                     height="30"
                 />{' '}
@@ -22,6 +22,9 @@ export default function Header() {
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
+                <div className="ml-auto">
+                <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/shahoob/website?label=%20&style=flat-square" />
+                </div>
         </Navbar>
     )
 }
