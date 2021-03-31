@@ -3,6 +3,7 @@
 Currently under construction
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/shahoob/website?style=flat-square)
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/shahoob/website/main?label=deployment&logo=vercel&style=flat-square)
+![Website](https://img.shields.io/website?down_message=in%20the%20v%20o%20i%20d&label=currently&style=flat-square&up_message=existing%20normally&url=https%3A%2F%2Fshehabtweel.ly)
 ## Progress
 ### Phase 1
 
