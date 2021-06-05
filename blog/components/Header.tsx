@@ -15,13 +15,10 @@ export default function Header() {
                 <Navbar.Collapse id="header-nav">
                     <Nav className="mr-auto">
                         <Link href="shehabtweel.ly">
-                        <Nav.Link as="a" href="shehabtweel.ly">Back to main site</Nav.Link>
+                        <Nav.Link as="a" href="https://shehabtweel.ly">Back to main site</Nav.Link>
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
-                <div className="ml-auto">
-                <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/shahoob/website?label=%20&style=flat-square" />
-                </div>
         </Navbar>
     )
 }
