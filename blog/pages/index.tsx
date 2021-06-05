@@ -1,20 +1,3 @@
-// import { gql } from '@apollo/client'
-// import { GetServerSideProps } from 'next'
-
-import { Alert } from "react-bootstrap";
-
-/*
-const ALL_POSTS = gql`
-query AllPosts {
-  
-}
-`
-
-export const getServerSideProps: GetServerSideProps = async () => {
-
-}
-*/
-
 export default function Home() {
   return (
     <>
