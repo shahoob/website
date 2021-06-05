@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "site"
+		},
+		{
+			"path": "blog"
+		}
+	],
+	"settings": {}
+}
