@@ -1,13 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "blog"
 		},
 		{
 			"path": "site"
 		},
 		{
-			"path": "blog"
+			"path": "."
 		}
 	],
 	"settings": {}
